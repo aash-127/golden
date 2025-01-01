@@ -4,14 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- normalize -->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="/assist/css/normalize.css" />
     <!-- font awsome -->
-    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="/assist/css/all.min.css" />
     <!-- frame-work  -->
-    <link rel="stylesheet" href="css/framework.css" />
-    <!-- style  -->
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/assist/css/framework.css" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <!-- hamburger-menu -->
+    <script src="assist/js/hamburger-menu.js" defer></script>
+    <title>Creative Network</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <span require-file="/assist/components/header.html"></span>
+    <!-- Navigation -->
+    <span require-file="/assist/components/nav.html"></span>
+    <!-- Main Content -->
+    <div class="container">
+      <div class="content">
+        <h1>اهلا بك.</h1>
+        <p>
+          اهلا بك في موقع شبكة الإبداع. هنا حيث يجتمع الإبداع والمهارات في هذا
+          المكان المميز. وكذلك يمكنك مشاهدة فريق المطورين والمصممين من خلال
+          الضغط على "الفريق".
+        </p>
+      </div>
+    </div>
+    <!-- Footer -->
+    <span require-file="/assist/components/footer.html"></span>
+    <!-- html-template-engine -->
+    <script
+      type="text/javascript"
+      src="https://rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"
+    ></script>
+  </body>
 </html>
