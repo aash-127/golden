@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- normalize -->
     <link rel="stylesheet" href="./assist/css/normalize.css" />
@@ -23,20 +22,16 @@
   </head>
   <body>
     <!-- Navbar -->
-
-     <div class="container">
-    <span require-file="./assist/components/navbar.html"></span>
-  </div>
-
-  
-    <!-- Navigation -->
-    <!-- <span require-file="./assist/components/nav.html"></span> -->
-
-    <header>
-      <div class="container">
-        <!-- Header -->
-        <div class="content">
-          <h1>اهلا بك.</h1>
+    <div class="landing">
+      <span require-file="./assist/components/navbar.html"></span>
+      <div class="landing--content container">
+        <img
+          class="landing-img"
+          src="/assist/images/online-tutorials-no-background (1).png"
+          alt=""
+        />
+        <div class="landing--info">
+          <h1>اهلا بك</h1>
           <p>
             اهلا بك في موقع شبكة الإبداع. هنا حيث يجتمع الإبداع والمهارات في هذا
             المكان المميز. وكذلك يمكنك مشاهدة فريق المطورين والمصممين من خلال
@@ -44,11 +39,32 @@
           </p>
         </div>
       </div>
-    </header>
+    </div>
+    <h2 class="re-box">الفريق</h2>
+    <!-- Navigation -->
+    <!-- <span require-file="./assist/components/nav.html"></span> -->
 
     <!-- Main content -->
+    <div class="container">Test</div>
     <div class="container">
-      Test
+      <div class="about">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a
+              href="
+    "
+              class="button"
+              >gegrrwe
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Main Content -->
@@ -57,9 +73,13 @@
     <span require-file="./assist/components/footer.html"></span>
     <!-- html-template-engine -->
     <script
-    type="text/javascript"
-    src="https://rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"
+      type="text/javascript"
+      src="https://rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"
     ></script>
-    <script type="text/javascript" src="./assist/js/hamburger-menu.js" defer></script>
+    <script
+      type="text/javascript"
+      src="./assist/js/hamburger-menu.js"
+      defer
+    ></script>
   </body>
 </html>
