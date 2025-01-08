@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assist/css/all.min.css" />
     <!-- frame-work  -->
     <link rel="stylesheet" href="./assist/css/framework.css" />
+    <!-- home  -->
+    <link rel="stylesheet" href="./assist/css/home.css" />
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,12 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
       rel="stylesheet"
     />
-    <!-- hamburger-menu -->
-
     <title>Creative Network</title>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- nav and landing -->
     <div class="landing">
       <span require-file="./assist/components/navbar.html"></span>
       <div class="landing--content container">
@@ -39,35 +39,76 @@
           </p>
         </div>
       </div>
+      <svg
+        class="wave"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,192L48,181.3C96,171,192,149,288,154.7C384,160,480,192,576,197.3C672,203,768,181,864,144C960,107,1056,53,1152,69.3C1248,85,1344,171,1392,213.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </div>
-    <h2 class="re-box">الفريق</h2>
-    <!-- Navigation -->
-    <!-- <span require-file="./assist/components/nav.html"></span> -->
-
-    <!-- Main content -->
-    <div class="container">Test</div>
-    <div class="container">
-      <div class="about">
+    <!-- end nav and landing -->
+    <!-- start About Us -->
+    <section class="course">
+      <h2 class="re-box">اكتشف الكورسات الأكثر شيوعًا</h2>
+      <div class="container">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          <div class="card-image">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">HTML</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              هي اللغة الأساسية المستخدمة لإنشاء صفحات الويب. تُستخدم لتحديد
+              بنية المحتوى على الصفحة مثل النصوص، الصور، الروابط، الأزرار،
+              القوائم، الجداول وغيره
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-            <a
-              href="
-    "
-              class="button"
-              >gegrrwe
-            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-brands fa-square-js"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">
+              هي لغة برمجة ديناميكية تُستخدم أساسًا لتطوير الويب. تضيف التفاعلية
+              لصفحات الويب، مثل النماذج المتحركة، معالجة الأحداث، والتحقق من
+              البيانات.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-brands fa-figma"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">Figma</h5>
+            <p class="card-text">
+              هي أداة تصميم واجهات مستخدم (UI) وتعاون تعمل عبر الإنترنت. تُستخدم
+              لإنشاء تصميمات رقمية، مثل تطبيقات الويب والهاتف
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">css</h5>
+            <p class="card-text">
+              هي لغة تنسيق تُستخدم لتصميم مظهر صفحات الويب المكتوبة بـ HTML.
+              تحدد CSS ألوان النصوص، الخطوط، الهوامش، الأحجام، الخلفيات،
+              والتخطيطات.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Main Content -->
+    </section>
 
     <!-- Footer -->
     <span require-file="./assist/components/footer.html"></span>
