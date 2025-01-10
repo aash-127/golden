@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assist/css/all.min.css" />
     <!-- frame-work  -->
     <link rel="stylesheet" href="./assist/css/framework.css" />
+    <!-- home  -->
+    <link rel="stylesheet" href="./assist/css/home.css" />
     <!-- google font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,18 +18,17 @@
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap"
       rel="stylesheet"
     />
-    <!-- hamburger-menu -->
-
     <title>Creative Network</title>
+    <link rel="icon" href="./assist/images/ICON.png" type="image/x-icon" />
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- nav and landing -->
     <div class="landing">
       <span require-file="./assist/components/navbar.html"></span>
       <div class="landing--content container">
         <img
           class="landing-img"
-          src="/assist/images/online-tutorials-no-background (1).png"
+          src="./assist/images/online-tutorials-no-background (1).png"
           alt=""
         />
         <div class="landing--info">
@@ -37,37 +38,107 @@
             المكان المميز. وكذلك يمكنك مشاهدة فريق المطورين والمصممين من خلال
             الضغط على "الفريق".
           </p>
+          <a class="button" href="">سجل الان</a>
         </div>
       </div>
-    </div>
-    <h2 class="re-box">الفريق</h2>
-    <!-- Navigation -->
-    <!-- <span require-file="./assist/components/nav.html"></span> -->
 
-    <!-- Main content -->
-    <div class="container">Test</div>
-    <div class="container">
-      <div class="about">
+      <!-- The Waves -->
+      <div class="co-wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255, 255, 255,0.7)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255, 255, 255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255, 255, 255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#f3f4f5" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- end nav and landing -->
+    <!-- start About Us -->
+    <section class="course">
+      <h2 class="re-box">اكتشف الكورسات الأكثر شيوعًا</h2>
+      <div class="container">
         <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          <div class="card-image">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">HTML</h5>
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              هي اللغة الأساسية المستخدمة لإنشاء صفحات الويب. تُستخدم لتحديد
+              بنية المحتوى على الصفحة مثل النصوص، الصور، الروابط، الأزرار،
+              القوائم، الجداول وغيره
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-            <a
-              href="
-    "
-              class="button"
-              >gegrrwe
-            </a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-brands fa-square-js"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">
+              هي لغة برمجة ديناميكية تُستخدم أساسًا لتطوير الويب. تضيف التفاعلية
+              لصفحات الويب، مثل النماذج المتحركة، معالجة الأحداث، والتحقق من
+              البيانات.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-brands fa-figma"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">Figma</h5>
+            <p class="card-text">
+              هي أداة تصميم واجهات مستخدم (UI) وتعاون تعمل عبر الإنترنت. تُستخدم
+              لإنشاء تصميمات رقمية، مثل تطبيقات الويب والهاتف
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+          <div class="card-content">
+            <h5 class="card-title">css</h5>
+            <p class="card-text">
+              هي لغة تنسيق تُستخدم لتصميم مظهر صفحات الويب المكتوبة بـ HTML.
+              تحدد CSS ألوان النصوص، الخطوط، الهوامش، الأحجام، الخلفيات،
+              والتخطيطات.
+            </p>
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Main Content -->
+    </section>
 
     <!-- Footer -->
     <span require-file="./assist/components/footer.html"></span>
