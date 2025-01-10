@@ -29,9 +29,17 @@
   line-height: 1.6;
   margin-left: 30px;
 }
+@media (max-width: 991px) {
+  .landing--info {
+    margin-left: 0px;
+  }
+}
 .landing--info h1 {
   margin-bottom: 4px;
   margin-top: 0;
+}
+.landing--info p {
+  margin-bottom: 30px;
 }
 .re-box {
   background-color: #2b5876;
@@ -69,14 +77,9 @@
   transform: translateY(50%);
   right: -25px;
 }
-.wave {
-  width: 100%;
-  position: absolute;
-  bottom: -2px;
-}
 .course {
   background-color: #f3f4f5;
-  padding: 50px 0;
+  padding: 80px 0 50px;
 }
 .course .container {
   display: flex;

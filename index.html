@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
     <title>Creative Network</title>
+    <link rel="icon" href="./assist/images/ICON.png" type="image/x-icon" />
   </head>
   <body>
     <!-- nav and landing -->
@@ -27,7 +28,7 @@
       <div class="landing--content container">
         <img
           class="landing-img"
-          src="/assist/images/online-tutorials-no-background (1).png"
+          src="./assist/images/online-tutorials-no-background (1).png"
           alt=""
         />
         <div class="landing--info">
@@ -37,19 +38,48 @@
             المكان المميز. وكذلك يمكنك مشاهدة فريق المطورين والمصممين من خلال
             الضغط على "الفريق".
           </p>
+          <a class="button" href="">سجل الان</a>
         </div>
       </div>
-      <svg
-        class="wave"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-      >
-        <path
-          fill="#f3f4f5"
-          fill-opacity="1"
-          d="M0,192L48,181.3C96,171,192,149,288,154.7C384,160,480,192,576,197.3C672,203,768,181,864,144C960,107,1056,53,1152,69.3C1248,85,1344,171,1392,213.3L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+
+      <!-- The Waves -->
+      <div class="co-wave">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(255, 255, 255,0.7)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(255, 255, 255,0.5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(255, 255, 255,0.3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#f3f4f5" />
+          </g>
+        </svg>
+      </div>
     </div>
     <!-- end nav and landing -->
     <!-- start About Us -->
